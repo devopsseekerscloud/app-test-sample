@@ -11,6 +11,12 @@
     width: 100%;
     height: 35vh;
     background-color: #5c666b;
+    display: flex;
+    align-items: center;
+}
+.line{
+    border: 10px dashed white;
+    width: 100%;
 }
 .bottom-outer{
     width: 100%;
