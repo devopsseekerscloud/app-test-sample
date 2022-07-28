@@ -2,11 +2,10 @@
     width:100px;
     height: 100px;
     background-color: red;
-    animation-name: animationName;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+    animation: animationName 2s linear infinite forwards;
+    /*
+    animation: name time function delay iteration direction
+    */
 }
 
 @keyframes animationName {
