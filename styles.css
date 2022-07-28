@@ -13,6 +13,7 @@
     background-color: #5c666b;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .line{
     border: 10px dashed white;
@@ -33,5 +34,11 @@
     width: 150px;
     position: absolute;
     top: -80px;
-    transform: scale(-1);
+    transform: scaleX(-1);
+    right: 10px;
+}
+.car{
+    width: 200px;
+    position: absolute;
+    right: 80px;
 }
