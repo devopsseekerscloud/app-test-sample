@@ -27,8 +27,7 @@
     height: 15vh;
     background-color: #ffeaa7;
     position: relative;
-    /*overflow: hidden;*/
-   /* clip-path: inset(-100vw -100vw 0 0);*/
+    clip-path: inset(-100vw -100vw 0 0);
 }
 .man-1{
     width: 150px;
