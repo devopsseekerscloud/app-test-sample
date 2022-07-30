@@ -69,3 +69,24 @@
         right: 1500px;
     }
 }
+/*==========*/
+.mountain-1{
+    width: 550px;
+    right: 0;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+}
+.mountain-2{
+    width: 550px;
+    top: 102px;
+    position: absolute;
+    z-index: 1;
+}
+.mountain-3{
+    width: 550px;
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    z-index: 0;
+}
