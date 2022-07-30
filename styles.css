@@ -55,6 +55,7 @@
 .cloud-2{
     animation: cloudAnimation 20s infinite linear;
     top: 80px;
+    z-index: 50;
 }
 .cloud-3{
     animation: cloudAnimation 30s infinite linear;
@@ -89,4 +90,21 @@
     left: 500px;
     top: 50px;
     z-index: 0;
+}
+/*=============*/
+.bird{
+    width: 100px;
+    position: absolute;
+    left: -100px;
+    animation: bidAnimation 30s infinite linear;
+
+}
+@keyframes bidAnimation {
+    from{
+        left: -100px;
+
+    }
+    to{
+        left: 1500px;
+    }
 }
