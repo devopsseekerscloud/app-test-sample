@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 .line{
     border: 10px dashed white;
@@ -42,8 +43,10 @@
 .car{
     width: 200px;
     position: absolute;
-    right: 80px;
+    right: -200px;
+    animation: cloudAnimation 10s infinite linear;
 }
+
 .cloud{
     position: absolute;
     height: 80px;
