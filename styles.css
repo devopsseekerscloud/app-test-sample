@@ -63,6 +63,7 @@
 @keyframes cloudAnimation {
     from{
         right: -200px;
+
     }
     to{
         right: 1500px;
