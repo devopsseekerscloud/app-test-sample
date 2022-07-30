@@ -27,24 +27,29 @@
     height: 15vh;
     background-color: #ffeaa7;
     position: relative;
+    overflow: hidden;
 }
 .man-1{
     width: 150px;
     position: absolute;
     top: -80px;
+    left: -100px;
+    animation: bidAnimation 10s infinite linear;
+
 }
 .man-2{
     width: 150px;
     position: absolute;
     top: -80px;
     transform: scaleX(-1);
-    right: 10px;
+    right: -200px;
+    animation: cloudAnimation 10s infinite linear;
 }
 .car{
     width: 200px;
     position: absolute;
     right: -200px;
-    animation: cloudAnimation 10s infinite linear;
+    animation: cloudAnimation 5s infinite linear;
 }
 
 .cloud{
